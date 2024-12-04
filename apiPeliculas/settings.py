@@ -71,18 +71,17 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'apiPeliculas.wsgi.application'
 
-
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST':'localhost',
-        'PORT':'3306',
+        'HOST':'autorack.proxy.rlwy.net',
+        'PORT':'26792',
         'USER':'root',
-        'PASSWORD':'2003',
-        'NAME':'peliculas',
+        'PASSWORD':'NqfwvjquQgrXnGZmVkAWgGeqZoYTZCIz',
+        'NAME':'railway',
         'OPTIONS':{
             'init_command':"SET sql_mode='STRICT_TRANS_TABLES'"
         }
