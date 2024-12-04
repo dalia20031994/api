@@ -1,0 +1,1 @@
+web: phyton mange.py migrate && gunicorn school.wsgi 
