@@ -73,14 +73,13 @@ WSGI_APPLICATION = 'apiPeliculas.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
-
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST':'autorack.proxy.rlwy.net',
-        'PORT':'26792',
+        'HOST':'junction.proxy.rlwy.net',
+        'PORT':'41206',
         'USER':'root',
-        'PASSWORD':'NqfwvjquQgrXnGZmVkAWgGeqZoYTZCIz',
+        'PASSWORD':'suCybyGluxwKyqUyqrKFmbqvitxLZzQr',
         'NAME':'railway',
         'OPTIONS':{
             'init_command':"SET sql_mode='STRICT_TRANS_TABLES'"
